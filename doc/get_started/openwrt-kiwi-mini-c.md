@@ -52,8 +52,7 @@ Install dependencies under root/sudo.
 apt-get install curl libcurl4-openssl-dev uuid-dev uuid g++ make cmake git unzip openjdk-7-jre libssl-dev libncurses-dev subversion gawk
 ```
 
-- Clone this repository ([azure-iot-sdks](https://github.com/Azure/azure-iot-sdks)) to the machine you are using, being sure to do a recursive clone (git clone --recursive <repo address>).
-- Navigate to the folder **c/build_all/arduino** in your local copy of the repository.
+- Clone this repository ([azure-iot-sdk-c]( https://github.com/Azure/azure-iot-sdk-c.git)) to the machine you are using, being sure to do a recursive clone (git clone --recursive <repo address>).
 - New a package dir in the dir OpenWrt/package , copy the source of c sdk to dir src , and then following the rule of OpenWrt Package to new a makefile.
 
 
